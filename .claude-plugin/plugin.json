@@ -1,0 +1,19 @@
+{
+  "name": "blender-3d-render",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Blender 3D animation and photorealistic rendering pipeline using Python (bpy), Cycles/EEVEE, studio lighting, camera rigs, and FFmpeg video export.",
+  "skills": [
+    "./SKILL.md"
+  ],
+  "keywords": [
+    "blender",
+    "3d",
+    "animation",
+    "render",
+    "cycles",
+    "eevee",
+    "bpy",
+    "ffmpeg"
+  ]
+}

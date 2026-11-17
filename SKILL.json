@@ -1,0 +1,22 @@
+{
+  "name": "blender-3d-render",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "End-to-end Blender 3D animation and photorealistic rendering pipeline using Python (bpy), Cycles/EEVEE, studio lighting, camera rigs, and FFmpeg video export.",
+  "entry": "SKILL.md",
+  "categories": [
+    "3d-animation",
+    "3d-rendering",
+    "blender",
+    "video-production"
+  ],
+  "requirements": {
+    "binaries": ["blender", "ffmpeg"],
+    "python": ">=3.10"
+  },
+  "scripts": {
+    "check_env": "scripts/check_env.sh",
+    "render": "scripts/render_pipeline.py",
+    "encode": "scripts/encode_video.sh"
+  }
+}
